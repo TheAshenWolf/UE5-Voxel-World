@@ -1,0 +1,12 @@
+0 - nothing
+1 - 50% chance to spawn
+2 - pivot marker; any z height is valid
+3 - 50% chance to continue down; height block for trees
+4 - Exact forced pivot point
+
+
+7 - Special case handle point
+8 - Special case
+
+16 - Special case 2 handle point
+17 - Special case 2

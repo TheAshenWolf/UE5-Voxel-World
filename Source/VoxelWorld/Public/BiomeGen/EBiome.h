@@ -1,0 +1,47 @@
+#pragma once
+
+UENUM(BlueprintType)
+enum class EBiome : uint8
+{
+  Ocean = 0,
+  Plains = 1,
+  Desert = 2,
+  ExtremeHills = 3,
+  Forest = 4,
+  Taiga = 5,
+  Swampland = 6,
+  River = 7,
+  Hell = 8,
+  Sky = 9,
+  FrozenOcean = 10,
+  FrozenRiver = 11,
+  IcePlains = 12,
+  IceMountains = 13,
+  MushroomIsland = 14,
+  MushroomIslandShore = 15,
+  Beach = 16,
+  DesertHills = 17,
+  ForestHills = 18,
+  TaigaHills = 19,
+  SmallerExtremeHills = 20,
+  Jungle = 21,
+  JungleHills = 22,
+  JungleEdge = 23,
+  DeepOcean = 24,
+  StoneBeach = 25,
+  ColdBeach = 26,
+  BirchForest = 27,
+  BirchForestHills = 28,
+  RoofedForest = 29,
+  TaigaCold = 30,
+  TaigaColdHills = 31,
+  RedwoodTaiga = 32,
+  RedwoodTaigaHills = 33,
+  ExtremeHillsWithTrees = 34,
+  Savanna = 35,
+  SavannaRock = 36,
+  Mesa = 37,
+  MesaRock = 38,
+  MesaClearRock = 39
+};
+
